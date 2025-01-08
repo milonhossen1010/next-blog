@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ['var(--font-frank-ruhl-libre)', 'serif'],
+        body: ['var(--font-rubik)', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
