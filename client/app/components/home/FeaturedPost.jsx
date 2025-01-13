@@ -3,7 +3,7 @@ import Container from "@/app/components/Container";
 import FadeIn from "@/app/components/FadeIn";
 import Image from "next/image";
 import blogImg from "../../../public/blog/image-94.jpg"
-import {Link} from "@nextui-org/react";
+import {Button, Link} from "@nextui-org/react";
 
 
 export default function FeaturedPost() {
@@ -72,6 +72,10 @@ export default function FeaturedPost() {
                         <p className="text-textColor text-xs uppercase">27 May 2024</p>
                     </div>
 
+                </div>
+
+                <div className="mt-12 text-center">
+                    <Link  href="#" className="bg-primary py-3 px-10 text-sm uppercase font-heading text-black rounded-3xl">More Posts</Link>
                 </div>
             </Container>
         </div>

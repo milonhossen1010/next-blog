@@ -19,7 +19,8 @@ export default {
         primary: "#FEE198",
         textColor:"#7A7E83",
         blackBG:"#171A1B",
-        grayBg:"#F8F7F5"
+        grayBg:"#F8F7F5",
+        borderColor:"#EAEAEA"
       },
     },
   },
