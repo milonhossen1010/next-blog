@@ -18,7 +18,8 @@ export default {
         foreground: "var(--foreground)",
         primary: "#FEE198",
         textColor:"#7A7E83",
-        blackBG:"#171A1B"
+        blackBG:"#171A1B",
+        grayBg:"#F8F7F5"
       },
     },
   },
