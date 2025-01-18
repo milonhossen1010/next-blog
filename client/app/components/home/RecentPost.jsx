@@ -11,7 +11,7 @@ import SideBar from "@/app/components/home/SideBar";
 export default function RecentPost() {
     return (
         <div className="py-20 ">
-            <Container className="grid grid-cols-3 gap-10">
+            <Container className="block md:grid md:grid-cols-3 gap-10">
                 <div className="col-span-2">
                     <div className="flex  w-full items-center">
                         <div className="flex w-full gap-4 items-center">
