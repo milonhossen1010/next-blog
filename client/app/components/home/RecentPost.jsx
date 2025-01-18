@@ -6,6 +6,7 @@ import {MdArrowRightAlt} from "react-icons/md";
 import {BiSolidEdit} from "react-icons/bi";
 import {CiCalendarDate} from "react-icons/ci";
 import FadeIn from "@/app/components/FadeIn";
+import SideBar from "@/app/components/home/SideBar";
 
 export default function RecentPost() {
     return (
@@ -129,13 +130,9 @@ export default function RecentPost() {
                 </div>
 
 
-                <div>
-                    <div className='p-10 border border-borderColor'>
-                        <Image className="w-full"
-                               src="https://chronicle.ancorathemes.com/wp-content/uploads/2021/11/banner-2.png"
-                               width={400} height={400} alt="Image"/>
-                    </div>
-                </div>
+
+                    <SideBar />
+
             </Container>
         </div>
     )

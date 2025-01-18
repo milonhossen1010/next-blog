@@ -11,7 +11,8 @@ export default function Banner() {
             <FadeIn className="text-center text-white max-w-[700px] z-20">
 
                     <div className="text-xs font-heading uppercase  bg-black inline px-2 py-1 rounded-xl">Creative</div>
-                    <h2 className="text-3xl md:text-5xl mt-6 mb-8">Amazing Fashion Photography from Milan Week</h2>
+                    <h2 className="text-3xl md:text-5xl mt-6 mb-8">
+Amazing Fashion Photography from Milan Week</h2>
                     <p className="font-heading">26 Mar 2024</p>
 
             </FadeIn>
