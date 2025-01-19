@@ -54,9 +54,9 @@ export default function Footer() {
     return (
         <div className="pt-10 pb-5 md:pt-20 bg-black">
            <Container>
-               <div className="grid md:grid-cols-5 gap-4 items-start">
+               <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-start">
                    <Link href="/"
-                         className="text-white text-3xl md:text-4xl   font-heading uppercase">
+                         className="col-span-2 md:col-span-1 mb-4 text-white text-3xl md:text-4xl   font-heading uppercase">
                        Next Blog</Link>
                    <div className="md:ml-14">
                        <h2 className="text-white mb-5 uppercase">Categories</h2>
@@ -82,7 +82,7 @@ export default function Footer() {
                        </ul>
                    </div>
 
-                   <div className="md:col-span-2">
+                   <div className="col-span-2">
                        <h2 className="text-white mb-5 uppercase">Newsletter</h2>
                        <div className="text-white relative" >
                            <Input color="primary" label="Enter Your Email" type="email" variant="underlined" />
