@@ -6,7 +6,7 @@ import FadeIn from "@/app/components/FadeIn";
 export default function Banner() {
     return (
         <div
-            className=" min-h-[70vh] flex items-center justify-center relative bg-no-repeat bg-cover before:absolute before:bg-black before:top-0 before:w-full before:h-full before:opacity-20"
+            className="min-h-[50vh] md:min-h-[70vh] flex items-center justify-center relative bg-no-repeat bg-cover before:absolute before:bg-black before:top-0 before:w-full before:h-full before:opacity-20"
             style={{"backgroundImage": `url(${bannerImg.src})`}}>
             <FadeIn className="text-center text-white max-w-[700px] z-20">
 
