@@ -2,7 +2,7 @@ import {Frank_Ruhl_Libre, Rubik} from "next/font/google";
 import "./globals.css";
 import Header from "@/app/components/Header";
 import {Providers} from "@/app/providers";
-
+import Footer from "@/app/components/Footer";
 
 
 const rubik = Rubik({
@@ -30,8 +30,9 @@ export default function RootLayout({children}) {
             className={`${rubik.variable} ${frankRuhlLibre.variable} antialiased`}
         >
         <Providers>
-        <Header/>
-        {children}
+            <Header/>
+            {children}
+            <Footer/>
         </Providers>
         </body>
         </html>

@@ -126,6 +126,11 @@ export default function RecentPost() {
                            </div>
                        </FadeIn>
                    </div>
+                    <div className="mt-14">
+                        <Link href="/blog"
+                              className="bg-white border border-borderColor py-3 px-10 text-sm uppercase font-heading text-black rounded-3xl transition-all duration-300 hover:bg-primary">More
+                            Posts</Link>
+                    </div>
 
                 </div>
 

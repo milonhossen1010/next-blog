@@ -11,7 +11,7 @@ const postList = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 export default function LatestPosts() {
     return (
-        <div className="py-20 ">
+        <div className="py-10 md:py-20 ">
             <Container>
                 <FadeIn className="mb-8">
                     <div className="text-center flex items-end  text-black">
@@ -27,13 +27,15 @@ export default function LatestPosts() {
                     {
                         postList.map((post, index) => (
                             <FadeIn key={index}>
-                                <Link className="block" href="#"><Image
-                                    src="https://chronicle.ancorathemes.com/wp-content/uploads/2020/03/image-95-642x428.jpg"
-                                    alt="Post"
-                                    width={400}
-                                    height={350}
-                                    className="w-full"
-                                /></Link>
+                                <Link className="block" href="#">
+                                    <Image
+                                        src="https://chronicle.ancorathemes.com/wp-content/uploads/2020/03/image-95-642x428.jpg"
+                                        alt="Post"
+                                        width={400}
+                                        height={350}
+                                        className="w-full"
+                                    />
+                                </Link>
                                 <Link href="#"
                                       className="uppercase text-xs mt-3 mb-2 text-textColor font-heading">Fashion</Link>
                                 <h2><Link href="#" className="text-2xl font-heading text-black">Must-See Moments from
@@ -53,8 +55,8 @@ export default function LatestPosts() {
                 </div>
                 <div className="text-center mt-14">
                     <Link href="/blog"
-                           className="bg-primary py-3 px-10 text-sm uppercase font-heading text-black rounded-3xl">More
-                    Posts</Link>
+                          className="bg-primary py-3 px-10 text-sm uppercase font-heading text-black rounded-3xl">More
+                        Posts</Link>
                 </div>
 
             </Container>

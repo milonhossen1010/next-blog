@@ -40,7 +40,7 @@ export default function VideoPost(props) {
 
                 <FadeIn>
                     <div className="flex  w-full items-center mb-8">
-                        <div className="inline-flex w-full md:w-1/2 gap-4 items-center">
+                        <div className="md:inline-flex w-full md:w-1/2 gap-4  items-center">
                             <h2 className="text-4xl text-white">Recent Video</h2>
                             <p className="text-textColor">Stay up-to-date</p>
                         </div>
